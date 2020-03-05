@@ -1,0 +1,177 @@
+/*---Tag Styles---*/
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Trebuchet MS;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 1.5;
+	text-align: center;
+	background: #15161d;
+	width: 100%;
+}
+img{
+	display: block;
+	width: 100%;
+}
+h1,h2,h3 ,h4,h5{
+	margin: 0;
+	padding: 0.3em 0
+}
+p{
+	margin: 0;
+	padding: 0 0 1em 0;
+}
+ul{
+	list-style-type: none;
+	display: inline-block;
+	
+}
+/*---END---*/
+
+
+/*---Header---*/
+#intro{
+	color: #fff;
+	text-align: center;
+	height: 550px;
+}
+#intro .bgImage{
+	position: absolute;
+	width: 100%;
+	height: 550px;
+	z-index: -1;
+	opacity: 0.5;
+}
+#intro h1{
+	padding-top: 80px;
+	
+}
+#intro h2{
+	padding-top: 0;
+	padding-bottom: 25px;
+}
+#intro .contentWrapper{
+	padding: 0 1.5em;
+}
+/*---END---*/
+
+
+/*---Panels---*/
+/*---Education---*/
+
+#educationPanel .contentWrapper{
+	padding: 0 1.5em;
+}
+#educationPanel h2{
+	border: 3px solid #fff;
+	width: 100%;
+}
+#universityPanel{
+	color: orange;
+}
+#schoolPanel{
+	padding-top: 10px;
+	height: 450px;
+}
+#schoolPanel .bgImage{
+	position: absolute;
+	width: 100%;
+	height: 450px;
+	z-index: -1;
+	opacity: 0.3;
+}
+#schoolPanel h3{
+	padding-top: 40px;
+}
+#schoolPanel ul{
+	padding-right: 25px;
+	
+}
+
+/*---Experience---*/
+#experiencePanel{
+	color: orange;
+}
+#experiencePanel .contentWrapper{
+	padding: 0 1.5em;
+}
+#experiencePanel h2{
+	border: 3px solid #fff;
+	width: 100%;
+}
+/*---Skills---*/
+#skillsPanel .contentWrapper{
+	padding: 0 1.5em;
+}
+#skillsPanel ul{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#skillsPanel .bgImage{
+	position: absolute;
+	width: 100%;
+	height: 610px;
+	z-index: -1;
+	opacity: 0.4;
+	padding:0;
+}
+#skillsPanel .tableImage{
+	width: 100px;
+	height: 100px;
+	padding-left: 5px;;
+}
+/*---Projects---*/
+#projectsPanel .contentWrapper{
+	padding: 0 1.5em;
+}
+#projectsPanel {
+	color: orange;
+	padding-top: 10px;
+}
+#projectsPanel h2{
+	border: 3px solid #fff;
+	width: 100%;
+}
+/*---END---*/
+
+
+/*------- Nav Bar --------*/
+#navBar{
+	position: fixed;
+}
+#navBar ul{
+	list-style-type: none;
+
+}
+/*---END---*/
+
+
+
+/*---Media Queries---*/
+@media(max-width: 500px){
+@media(min-width: 500px){
+	#intro, #intro .bgImage{
+		height: 470px;
+	}
+	#schoolPanel h3{
+		padding-top: 100px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

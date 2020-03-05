@@ -1,0 +1,152 @@
+html {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #000000;
+
+	
+}
+#background{
+	background-size: cover;
+	height: 100%;
+    width: 100%;
+	position: absolute;
+}
+#twitterfeed{
+	position: absolute;
+	margin: 8% 28% 0px 27%;
+}
+
+#voodoodoll{
+	position: absolute;
+	margin: 42% 0% 0% 80%;
+	
+}
+#voodoologo{
+	position: absolute;
+	margin: 56% 30% 0% 15%;
+	z-index: 1;
+}
+#mainlogo{
+	position: absolute;
+	margin: 0px 0px 0px 35.9%;
+	z-index: 2;
+}
+#mainlogobackground{
+	position: absolute;
+	margin: -27px 0px 0px 35.18%;
+	z-index: 0;
+	animation: mainLogoBackgroundColour 10s infinite;
+}
+
+#needles{
+	position: absolute;
+	margin: 10% 0 0 8%;
+
+	
+}
+#needles2{
+	position: absolute;
+	margin: 56% 0% 0% 22%;
+
+}
+
+#Tfeed {
+	position: absolute;
+	display: inline-block;
+	width: 10px;
+	margin: 2% 0px 0px 6%;
+	animation: mainLogoBackgroundColour 10s infinite;
+}
+#T {animation: tSpinT 10s infinite;}
+#W{animation: tSpinW 10s infinite;}
+#I{animation: tSpinE 10s infinite;}
+#T2{animation: tSpinT2 30s infinite;}
+#T3{animation: tSpinT3 10s infinite;}
+#E{animation: tSpinE 10s infinite;}
+#R{animation: tSpinR 10s infinite;}
+#F{animation: tSpinF 10s infinite;}
+#E2{animation: tSpinE2 10s infinite;}
+#E3{animation: tSpinE3 10s infinite;}
+#D{animation: tSpinD 10s infinite;}
+
+#Tfeed2{
+	position: absolute;
+	display: inline-block;
+	width: 10px;
+	margin: 2% 0px 0px 83%;
+	animation: mainLogoBackgroundColour 10s infinite;
+}
+
+/* Keyframes Twitter Feed*/
+
+
+@keyframes tSpinT{
+
+	0% {
+		transform:  rotateY(360deg);
+		}
+}
+@keyframes tSpinW{
+	0% {transform: rotateY(360deg);}
+
+}
+@keyframes tSpinI{
+
+0% {
+		transform:  rotateY(360deg);
+		}
+}
+@keyframes tSpinT2{
+
+	0% {
+		transform:  rotateY(360deg);
+		}
+}
+@keyframes tSpinT3{
+
+	0% {
+		transform:  rotateY(360deg);
+		}
+}
+@keyframes tSpinE{
+
+	0% {
+		transform:  rotateY(360deg);
+		}
+}
+@keyframes tSpinR{
+
+	0% {
+		transform:  rotateY(360deg);
+		}
+}
+@keyframes tSpinF{
+
+	0% {
+		transform:  rotateY(360deg);
+		}
+}
+@keyframes tSpinD{
+
+	0% {
+		transform:  rotateY(360deg);
+		}
+}
+
+/* Keyframes Birdcage Logo */
+
+@keyframes mainLogoBackgroundColour{
+
+	100% {
+		filter: hue-rotate(60deg);
+		-webkit-filter: hue-rotate(360deg);}
+		}
+}
+
+
+
+/*Made by Nathaniel Bradley 17/10/2016 */

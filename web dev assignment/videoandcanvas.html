@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Video / Canvas</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="scripts/videoScript.js"></script>
+		<script src="scripts/canvasScript.js"></script>
+	</head>
+
+	<body>
+
+		<nav>
+
+
+		<div id="navLogos">
+			<div id="navLogoVale">
+			<a href="http://www.darwenvale.com/"><img src="images/dvalelogo.png" title="Darwen Vale High School logo" alt="Darwen Vale High School logo" width="100" height="30"/></a>
+			</div>	
+				<div id="navLogoBlackburn">
+				<a href="http://www.blackburn.ac.uk/"><img src="images/bbcollege-logo.png"  title="Blackburn College Logo" alt="Blackburn College Logo"  width="100" height="32"/></a>
+				</div>
+					<div id="navLogoMMU">
+					<a href="http://www2.mmu.ac.uk/"><img src="images/mmu.gif"  title="Manchester Metropolitan University Logo" alt="Manchester Metropolitan University Logo"  width="100" height="28"/></a>
+					</div>
+		</div>
+
+
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="programming.html">Programming/CSF</a></li>
+			<li><a href="webdev.html">WebDev/IS</a></li>
+			<li><a href="aboutme.html">About Me</a></li>
+			<li><a href="videoandcanvas.html" id="active">Video/Canvas</a></li>
+		</ul>
+	</nav>
+
+
+			<!---- JavaScript Video --------->
+	<section id="videoContainer">
+		<video alt="Your Browser does not support HTML 5 Video" id="video">
+				
+			<source src="videos/mp4/rsTrap.mp4">
+		</video>
+			
+			<div id="videoControls">
+			
+				<span id="vidCurrentTime">00:00</span> / <span id="vidDurTime">00:00</span>
+					<button type="button" id="playPause">Play</button>
+					<button type="button" id="muteUnmute">Mute</button>
+					<input type="range" id="seekBar" min="1" max="100" step="1" value="0">
+					<input type="range" id="volumeBar" min="1" max="100" step="1" value="100">
+			
+					<!---- Playback changing buttons----->
+				<div id="speedControls">
+					<p>Speed Controls</p>
+					<button type="button" id="naughtPointFive">0.5</button>
+					<button type="button" id="naughtPointSvnFive">0.75</button>
+					<button type="button" id="one">1</button>
+					<button type="button" id="onePointTwoFive">1.25</button>
+					<button type="button" id="onePointFive">1.5</button>
+					<button type="button" id="onePointSvnFive">1.75</button>
+					<button type="button" id="two">2</button>
+				</div>
+			</div>
+			
+	</section>
+
+
+	<section id="canvasContainer">
+		<canvas id="flagCanvas" width="300" height="300" alt="The Brazilian Flag">Your browser does not support the HTML5 canvas tag</canvas>
+		<canvas id="rectangleCanvas" width="300" height="300" alt="The Brazilian Flag">Your browser does not support the HTML5 canvas tag</canvas>
+	</section>
+
+
+
+
+	</body>
+</html>

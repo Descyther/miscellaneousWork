@@ -1,0 +1,42 @@
+	<ul>
+		
+<div class="searchbar">
+<script>
+  (function() {
+    var cx = '014366974631717232028:snvztekma64';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+			
+	<div class="nav nav-pills">
+			<li><a href="#"><strong>Me</strong></a></li>
+			<li><a href="#"><strong>Home</strong></a></li>
+			<li><a href="#"><strong>Friends</strong></a></li>
+	</div>
+	</nav>
+	
+			<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><img src="images/facebuttonprivacy.png"/></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+	
+	
+	
+	<div class="title">
+	<ul>
+			<li><a href="#"><img href=""/><h3><strong>NateBook</strong></h3></a></li>
+	
+		</ul>
+	</div>

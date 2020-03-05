@@ -1,0 +1,162 @@
+/* Dropdown Navigation (notifications) */
+
+
+
+#notifications_nav {
+	display: block;
+	position: relative;
+	margin: 0px 0px 0px 1030px;
+	top: 7;
+	z-index: +2;
+}
+
+#notifications_nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#notifications_nav li {
+	position: relative;
+	float: left;
+	list-style: none;
+	margin: 1px 0px 0px 0px;
+}
+
+#notifications_nav ul:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
+#notifications_nav ul ul {
+	display: none;
+	position: absolute;
+	top: 17;
+	left: 0px;
+	width: 0px;
+	
+}
+
+#notifications_nav ul:hover ul {
+	display: block;
+	margin: 15px 0px 0px 5px;
+
+}
+
+#notifications_nav ul li a {
+	text-decoration: none;
+	color: white; 
+	background-color: #337AB7;
+	padding: 4px;
+}
+
+/*dropdown menu (messages)*/
+
+#messages_nav {
+	display: block;
+	position: absolute;
+	margin: 0px 0px 0px 1114px;
+	top: 9;
+	z-index: +2;
+}
+
+#messages_nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#messages_nav li {
+	position: relative;
+	float: left;
+	list-style: none;
+}
+
+#messages_nav ul:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
+#messages_nav ul ul {
+	display: none;
+	position: absolute;
+	top: 17;
+	left: 0px;
+	width: 0px;
+	
+}
+
+#messages_nav ul:hover ul {
+	display: block;
+	margin: 15px 0px 0px 5px;
+
+}
+
+#messages_nav ul li a {
+	text-decoration: none;
+	color: white; 
+	background-color: #337AB7;
+	padding: 4px;
+	
+}
+
+
+
+
+
+
+/*Drop down (settings)*/
+
+#settings_nav {
+	display: block;
+	position: absolute;
+	margin: 0px 0px 0px 1190px;
+	top: 7;
+	z-index: +2;
+}
+
+#settings_nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#settings_nav li {
+	position: relative;
+	float: left;
+	list-style: none;
+}
+
+#settings_nav ul:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
+#settings_nav ul ul {
+	display: none;
+	position: absolute;
+	top: 17;
+	left: 0px;
+	width: 0px;
+	
+}
+
+#settings_nav ul:hover ul {
+	display: block;
+	margin: 15px 0px 0px 5px;
+
+}
+
+#settings_nav ul li a {
+	text-decoration: none;
+	color: white; 
+	background-color: #337AB7;
+	padding: 4px;
+	
+}

@@ -1,0 +1,327 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+	background-color: #d9d9d9;
+}
+/* logo positioning */
+
+#logo {
+	position: absolute;
+	top: 0;
+	left: 4;
+	
+}
+
+/* Nav Bar text box */
+.form {
+	position: absolute;
+	margin: 13px 0px 0px 360px;
+	
+}
+
+.form input{
+	width: 400px;
+	
+}
+
+#search {
+	width: 60px;
+	
+}
+
+
+
+/* Nav Bar content Divs */
+
+nav {
+	background-color: #337AB7;
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	z-index: +2;
+}
+
+#mainnav {
+	margin: 0px 0px 0px 800px;
+	top: 15;
+	position: absolute;
+	
+}
+
+#mainnav ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+
+
+#mainnav ul li a {
+	text-decoration: none;
+	color: white; 
+	background-color: #337AB7;
+	padding: 4px;
+	margin: 0px 0px 0px 0px;
+}
+
+/* Frinds in wrong place so made new thing */
+
+
+.navrightpadding ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+
+.navrightpadding ul li a {
+	text-decoration: none;
+	color: white; 
+	background-color: #337AB7;
+	padding: 4px;
+	margin: 0px 0px 0px 0px;
+}
+
+.navrightpadding a:active {
+	background-color:  #2d6c9f;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+	padding: 2px;
+}
+
+.navrightpadding a:hover {
+	background-color:  #2d6c9f;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+	padding: 4px;
+}
+
+/* Nav Bar right padding for text then dropdown images. */
+.navrightpadding {
+	padding: 0px 250px 0px 0px;
+	display: inline;
+	margin: 0px 0px 0px 885px;
+	top: 15;
+	position: absolute;
+	width: 100%;
+}
+.navrightpadding2 {
+	padding: 0px 10px 0px 0px;	
+}
+
+}
+
+/* Hover effects and active */
+
+#mainnav a:active {
+	background-color:  #2d6c9f;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+	padding: 2px;
+}
+
+#mainnav a:hover {
+	background-color:  #2d6c9f;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+	padding: 4px;
+}
+
+
+
+/* Main page content Divs */
+
+.requestbox {
+	padding: 0px 0px 0px 80%;
+	margin:  0px 3px 0px 0px;
+	position: fixed;
+	top: 55px;
+}
+
+.peoplebox {
+	padding: 0px 0px 0px 80%;
+	margin:  0px 3px 0px 0px;
+	position: fixed;
+	top: 270px;
+}
+
+
+
+.pageborder1 {
+	border-left: 2px solid #337AB7;
+	margin: 0% 0% 0% 16%;
+    padding: 0px 0% 0% 0%;
+	height: 1000%;
+	position: absolute;
+	top: 0;
+}
+
+.pageborder2 {
+	border-right: 2px solid #337AB7;
+	margin: 0% 0% 0% 0%;
+    padding: 0% 80% 0% 0%;
+	height: 1000%;
+	position: absolute;
+	top: 0;
+}
+
+.gamesbox {
+
+	width: 203px;
+    padding: 0px 0px 0px 0%;
+	margin: 50px 0% 0% 0px;
+	background-color: white;
+	position: absolute;
+	height: 100000000%;
+
+}
+
+#posttextbox {
+	width: 100%;
+	height: 100px;
+	
+}
+
+#post {
+	top: 0;
+	
+}
+.gamesbox ul li {
+	list-style-type: none;
+	margin: 0px 0px 0px -35px;
+	width: 1000%;
+	
+
+}
+
+.gamesbox ul li a {
+	padding: 4px;
+}
+
+.gamesbox a:hover {
+	background-color: #d9d9d9;
+	padding: 4px;
+	border-radius: 3px;
+	text-decoration: none;
+	
+	
+}
+
+.gamesbox img {
+	margin: 0px 0px 0px 30px;
+	
+}
+
+.writebox {
+	padding: 0px 0px 0px 0px;
+	width: 61%;
+	margin: 0px 0% 0% 220px;
+	position: absolute;
+	top: 55;
+	z-index: +1;
+}
+h3 {
+	text-align: center;
+	font-family: hobo std;
+	
+}
+
+.movetext h3 {
+	text-align: left;
+}
+
+p {
+	text-align: center;
+	font-family: cooper std black;
+}
+
+.login {
+	position: absolute;
+	margin: 300px 0px 0px 43%;
+	padding: 0px 0px 0px 0px;
+	z-index: +1;
+	list-style: none;
+	text-decoration: none;
+	font-family: cooper std black;
+}
+.login ul li {
+	list-style: none;
+}
+
+.login ul li a {
+	text-decoration: none;
+	background-color: #39840F;
+	border-radius: 3px;
+	color: white;
+	padding: 9px 2px 2px 2px;
+}
+
+.login a:hover {
+	background-color: #6cbb48;
+	color: white;
+	font-family: cooper std black;
+}
+
+
+ /* Game page game client handler */
+ 
+.gameclient {
+	margin: 50px 0px 0% 204px;
+	z-index: +1;
+	position: absolute;
+}
+
+
+/*Main page*/
+.allarticles {
+	position: absolute;
+	top: 170;
+}
+
+.article1 {
+	padding: 0px 0px 0px 0px;
+	margin: 110px 0px 0% 220px;
+	background-color: white;
+	width: 74%;
+	height: 420px;
+	
+}
+
+.article2 {
+	padding: 0px 0px 0px 0px;
+	margin: 20px 0px 0% 220px;
+	background-color: white;
+	width: 74%;
+	height: 420px;
+}
+
+.article3 {
+	padding: 0px 0px 0px 0px;
+	margin: 20px 0px 0% 220px;
+	background-color: white;
+	width: 74%;
+	height: 420px;
+}
+
+.article4 {
+	padding: 0px 0px 0px 0px;
+	margin: 20px 0px 0% 220px;
+	background-color: white;
+	width: 74%;
+	height: 420px;
+}
+
+}
+ /* ---------------------------------------------- */
+ 

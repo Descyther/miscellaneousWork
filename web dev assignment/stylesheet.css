@@ -1,0 +1,265 @@
+/* GCSE Page Style Sheet */
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+/*Background*/
+#background{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*Navigation Menu Start*/
+nav{
+	position: fixed;
+	background-color: #3399ff;
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px solid #0080ff;
+	z-index: 1;
+}
+nav ul{
+	margin: 14px 29%;
+	width: 100%;
+    
+}
+nav ul li{
+	padding-right: 10px;
+	text-decoration: none;
+	display: inline;
+
+}
+nav ul li a{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	border-left: 2px solid #0080ff;
+	border-right: 2px solid #0080ff;
+	border-top: 2px solid #0080ff;
+	border-radius: 5px;
+	padding: 4px;
+	background-color: #3399ff;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	background-color: #0073e6;
+	text-shadow: 2px 2px grey;
+}
+
+#active{
+	background-color: #0073e6;
+	text-shadow: 2px 2px grey;
+}
+
+/* Nav Logos */
+#navLogos{
+	width: 100px;
+	
+	
+}
+nav #navLogos{
+	position: absolute;
+	z-index: 2;
+	width: 10px;
+}
+
+nav #navLogoVale{
+	position: absolute;
+	margin: 14px 0px 0px 20px;
+	
+	
+}
+
+nav #navLogoBlackburn{
+	position: absolute;
+	margin: 8px 0px 0px 130px;
+	
+	
+}
+
+nav #navLogoMMU  {
+	position: absolute;
+	margin: 12px 0px 0px 235px;
+	
+	
+}
+
+#navLogos a:hover {
+	-webkit-filter: invert(100%); 
+	filter: invert(100%);
+}
+
+@media screen and (max-width: 1074px){
+	nav #navLogos{
+		visibility: hidden;
+		
+		
+	}
+	nav ul{
+		margin: 14px 25%;
+		
+		
+	}
+	
+}
+
+/*Navigation Menu End*/
+
+
+/*Heading*/
+#heading{
+	font-size: 32px;
+	position: absolute;
+	margin: 7% 0 0 21%;
+	color: white;
+	text-shadow: 3px 3px grey;
+	
+}
+
+
+
+
+/*-------------------------------------------------*/
+/* ------------------ Video CSS --------------- */
+/*-------------------------------------------------*/
+#video
+{
+	position: relative;
+	
+	
+}
+
+
+#videoControls
+{
+	
+	
+}
+
+
+/*-------------------------------------------------*/
+/* ------------------ About Me CSS --------------- */
+/*-------------------------------------------------*/
+
+#profilePicture{
+	
+	
+	
+}
+#information{
+	position: relative;
+	width: 250px;
+	margin: 5% 0 0 65%;
+}
+#information ul{
+	
+	
+	
+}
+#information ul li{
+	background-color: #3399ff;
+	list-style-type: none;
+	
+}
+
+#profilePicture img{
+	width: 240px;
+	background-color: #3399ff;
+	padding: 10px;
+	margin: 10% 0 0 65%;
+	
+}
+/*  Table CSS */
+
+table{
+	position: absolute;
+	margin: 41px 0 0 0;
+	width: 50%;
+	height: 93.5%;
+}
+
+table tr th{
+	background-color: #0080ff;
+	
+}
+table tr td{
+	text-align: center;
+	background-color: #3399ff;
+}
+
+
+
+/*-------------------------------------------------*/
+/* -------------- Video and Canvas CSS ------------- */
+/*-------------------------------------------------*/
+
+
+
+/*				Video				*/
+#videoContainer{
+	margin: 10% 0 0 0;
+	position: absolute;
+}
+#video{
+	width:50%;
+	height:50%;
+	margin: 0 0 0 1%;
+}
+
+span {
+	border: 3px solid red;
+	margin: 20px 0 0 0;
+	
+}
+
+#speedControls{
+	position: absolute;
+	border: 1px solid red;
+	margin: 0 0 0 200px;
+	
+}
+
+
+
+/*          Canvas               */
+#canvasContainer{
+	position: absolute;
+	margin: 10% 0 0 50%;
+}
+
+
+/*-------------------------------------------------*/
+/* -------------- Prgramming/CSF CSS ------------- */
+/*-------------------------------------------------*/
+
+
+
+
+#columns {
+	display: inline-block;
+	position: absolute;
+	margin: 45px 0 0 0;
+	width: 100%;	
+	height: 90%;
+	float: left;
+	
+}
+#columnOne{
+	float:left;
+	width: 45%;
+	border: 2px solid #3399ff;
+}
+
+#columnTwo{
+	float: right;
+	width: 45%;
+	border: 2px solid #3399ff;
+
+}
